@@ -47,7 +47,7 @@ resource "azurerm_container_app" "staging" {
   template {
     container {
       name   = "flask-container"
-      image  = "${data.azurerm_container_registry.existing_acr.login_server}/simple-flask-app:latest"
+      image  = "${data.azurerm_container_registry.existing_acr.login_server}/simple-flask-app:${var.image_tag}"
       cpu    = "0.25"
       memory = "0.5Gi"
     }
