@@ -10,3 +10,15 @@
 crash.log
 .terraformrc
 terraform.rc
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore local VS Code settings
+.vscode/
+
+# Ignore your virtual environment (highly recommended!)
+path/to/venv/
+venv/
+.venv/
