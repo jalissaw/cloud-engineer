@@ -1,0 +1,12 @@
+
+*.tfvars
+*.tfvars.json
+
+*.tfstate
+*.tfstate.*
+.terraform/
+
+
+crash.log
+.terraformrc
+terraform.rc
